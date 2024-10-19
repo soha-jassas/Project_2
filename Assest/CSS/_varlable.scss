@@ -1,0 +1,45 @@
+$Black:#000000;
+$DarkGreen:#1A3129;
+$MiddleGreen:#2C5446;
+$MiddleGreen-1: #234338;
+$LightGreen:#CBEA7B;
+$White:#FFFFFF;
+
+// تعریف فونت‌ها
+@font-face {
+    font-family: 'EsteadadBlack';
+    src: url('./Assest/Media/Font/Estedad/Black/Estedad-Black.eot');
+    src: url('./Assest/Media/Font/Estedad/Black/Estedad-Black.woff') format('woff'),
+         url('./Assest/Media/Font/Estedad/Black/Estedad-Black.woff2') format('woff2'),
+         url('./Assest/Media/Font/Estedad/Black/Estedad-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'EsteadadBold';
+    src: url('./Assest/Media/Font/Estedad/Bold/Estedad-Bold.eot');
+    src: url('./Assest/Media/Font/Estedad/Bold/Estedad-Bold.woff') format('woff'),
+         url('./Assest/Media/Font/Estedad/Bold/Estedad-Bold.woff2') format('woff2'),
+         url('./Assest/Media/Font/Estedad/Bold/Estedad-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'EsteadadLight';
+    src: url('./Assest/Media/Font/Estedad/Light/Estedad-Light.eot');
+    src: url('./Assest/Media/Font/Estedad/Light/Estedad-Light.woff') format('woff'),
+         url('./Assest/Media/Font/Estedad/Light/Estedad-Light.woff2') format('woff2'),
+         url('./Assest/Media/Font/Estedad/Light/Estedad-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Yekan';
+    src: url('./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.eot');
+    src: url('./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.woff') format('woff'),
+         url('./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.woff2') format('woff2'),
+         url('./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.ttf') format('truetype');
+}
+
+// تعریف متغیرهای SCSS برای فونت‌ها
+$font-esteadad-black: EsteadadBlack;
+$font-yekan: Yekan;
+$font-esteadad-bold: EsteadadBold;
+$font-esteadad-light:EsteadadLight;

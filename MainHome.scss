@@ -1,0 +1,80 @@
+@import'./Assest/CSS/Header';
+@import'./Assest/CSS/varlable';
+@import'./Assest/CSS/Extend';
+
+main {
+    width: 100%;
+    position:relative;
+
+    >div.HeroSection {
+        width: inherit;
+        display: flex;
+        align-items: center;
+
+        >img {
+            width: 49%;
+            height: 79vh;
+            margin-left: 20px;
+        }
+
+        >div.Description {
+            width: 45%;
+            position: relative;
+            right: 4%;
+
+            >h3 {
+                font-family: $font-esteadad-bold;
+                font-size: 20px;
+                font-weight: 500;
+                position: absolute;
+                bottom: 350%;
+            }
+
+            >h1 {
+                font-family: $font-yekan;
+                font-size: 40px;
+                font-weight: 900;
+                position: absolute;
+                bottom: 185%;
+            }
+
+            >h5 {
+                font-family: $font-esteadad-light;
+                font-size: 20px;
+                position: absolute;
+                top: -85%;
+            }
+
+            >button.get {
+                display: flex;
+                width: 147px;
+                height: 49px;
+                background: $LightGreen;
+                color: $Black;
+                flex-direction: row;
+                align-items: center;
+                padding: 14px 16px;
+                gap: 8px;
+                border-radius: 6px;
+                border: none;
+                position: absolute;
+
+            }
+            >button.back {
+                display: flex;
+                width: 147px;
+                height: 49px;
+                background: $LightGreen;
+                color: $Black;
+                flex-direction: row;
+                align-items: center;
+                padding: 14px 16px;
+                gap: 8px;
+                border-radius: 6px;
+                border: none;
+                position: absolute;
+                
+            }
+        }
+    }
+}
