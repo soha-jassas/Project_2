@@ -154,66 +154,80 @@ main {
   width: 100%;
   position: relative;
 }
-main > div.HeroSection {
+main .HeroSection {
   width: inherit;
   display: flex;
   align-items: center;
 }
-main > div.HeroSection > img {
+main .HeroSection img {
   width: 49%;
   height: 79vh;
   margin-left: 20px;
 }
-main > div.HeroSection > div.Description {
+main .HeroSection .Description {
   width: 45%;
-  position: relative;
-  right: 4%;
+  position: absolute;
+  left: 2%;
 }
-main > div.HeroSection > div.Description > h3 {
+main .HeroSection .Description h3 {
   font-family: EsteadadBold;
   font-size: 20px;
   font-weight: 500;
   position: absolute;
-  bottom: 350%;
+  top: -13%;
+  display: flex;
 }
-main > div.HeroSection > div.Description > h1 {
+main .HeroSection .Description h1 {
   font-family: Yekan;
   font-size: 40px;
   font-weight: 900;
-  position: absolute;
-  bottom: 185%;
+  display: flex;
 }
-main > div.HeroSection > div.Description > h5 {
+main .HeroSection .Description h5 {
   font-family: EsteadadLight;
   font-size: 20px;
-  position: absolute;
-  top: -85%;
-}
-main > div.HeroSection > div.Description > button.get {
   display: flex;
-  width: 147px;
-  height: 49px;
+}
+main .HeroSection .Description a button.get {
+  display: flex;
+  width: 182px;
+  height: 50px;
   background: #CBEA7B;
   color: #000000;
-  flex-direction: row;
-  align-items: center;
   padding: 14px 16px;
-  gap: 8px;
   border-radius: 6px;
   border: none;
+  font-family: EsteadadBlack;
   position: absolute;
+  top: 105%;
 }
-main > div.HeroSection > div.Description > button.back {
+main .HeroSection .Description a button.back {
   display: flex;
-  width: 147px;
-  height: 49px;
-  background: #CBEA7B;
+  width: 190px;
+  height: 50px;
+  background: #F7FCE9;
   color: #000000;
-  flex-direction: row;
-  align-items: center;
   padding: 14px 16px;
-  gap: 8px;
   border-radius: 6px;
   border: none;
+  font-family: EsteadadBlack;
   position: absolute;
+  top: 105%;
+  left: 45%;
+}
+main .HeroSection .Description img {
+  width: 102px;
+  height: 52px;
+}
+main .HeroSection .Description a.customer {
+  text-decoration: none;
+  font-family: Yekan;
+  font-size: 16px;
+  margin: -22px;
+}
+main .HeroSection .Description a {
+  text-decoration: none;
+  font-family: Yekan;
+  font-size: 16px;
+  margin: 25px;
 }/*# sourceMappingURL=MainHome.css.map */
