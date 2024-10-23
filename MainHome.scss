@@ -1,6 +1,4 @@
-@import'./Assest/CSS/Header';
-@import'./Assest/CSS/varlable';
-@import'./Assest/CSS/Extend';
+@import'./Assest/CSS/Setting';
 
 main {
     width: 100%;
@@ -80,15 +78,17 @@ main {
             img {
                 width: 102px;
                 height: 52px;
-                
+
             }
+
             a.customer {
                 text-decoration: none;
                 font-family: $font-yekan;
                 font-size: 16px;
                 margin: -22px;
             }
-            a{
+
+            a {
                 text-decoration: none;
                 font-family: $font-yekan;
                 font-size: 16px;
@@ -96,4 +96,242 @@ main {
             }
         }
     }
+
+    .FeaturesSection {
+        width: 100%;
+        overflow-x: hidden;
+
+        .features {
+            width: inherit;
+
+            h1 {
+                @include H1-initial-part
+            }
+
+            p {
+                @include P-initial-part
+            }
+
+            .row {
+                .col-5 {
+                    width: 48%;
+
+                    .card {
+                        margin-right: 50px;
+                        margin-bottom: 25px;
+
+                        .card-body {
+                            display: ruby;
+
+                            img {
+                                width: 6%;
+                            }
+
+                            h5 {
+                                font-size: 18px;
+                                font-family: $font-esteadad-bold;
+                            }
+
+                            p {
+                                font-size: 1em;
+                                font-family: $font-esteadad-light;
+                                font-weight: 500;
+                                text-align: right;
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .BlogsSection {
+        .blog {
+            overflow-x: hidden;
+            text-align: center;
+
+            h1 {
+                @include H1-initial-part
+            }
+
+            span {
+                @include P-initial-part
+            }
+
+            .row {
+                margin-top: 20px;
+
+                .col {
+                    a {
+                        text-decoration: none;
+
+                        .card {
+                            @include blog-card;
+
+                            img {
+                                @include blog-card-img;
+                            }
+
+                            .card-body {
+                                .card-plot {
+                                    font-family: $font-esteadad-light;
+                                    font-size: 16px;
+                                    text-align: right;
+                                }
+
+                                .card-title {
+                                    font-family: $font-esteadad-bold;
+                                    font-size: 16px;
+                                    text-align: right;
+                                }
+
+                                .card-text {
+                                    font-family: $font-esteadad-light;
+                                    font-size: 18px;
+                                    text-align: right;
+                                }
+
+                                .card-box {
+                                    width: 530px;
+                                    height: 83px;
+                                    text-align: right;
+                                    border: 1px solid #E9EED9;
+
+                                    .card-box-body {
+                                        display: flex;
+
+                                        .card-box-img {
+                                            width: 100px;
+                                            height: 100px;
+                                            margin: -9px;
+                                        }
+
+                                        .card-box-name {
+                                            font-size: 14px;
+                                            font-family: $font-esteadad-bold;
+                                            color: black;
+                                            width: 100px;
+                                            position: absolute;
+                                            top: 87%;
+                                            left: 65%;
+                                        }
+
+                                        .card-box-time {
+                                            width: 230px;
+                                            height: 25px;
+                                            font-size: 12px;
+                                            font-family: $font-esteadad-light;
+                                            color: black;
+                                            position: absolute;
+                                            top: 91.5%;
+                                            left: 42.5%
+                                        }
+
+                                        .card-icon-heart {
+                                            width: 60px;
+                                            height: 60px;
+                                            position: absolute;
+                                            left: 50px;
+                                            bottom: 50px;
+                                        }
+
+                                        .card-icon-save {
+                                            width: 60px;
+                                            height: 60px;
+                                            position: absolute;
+                                            left: 25px;
+                                            bottom: 50px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .OurTestimonials {
+        width: 100%;
+        overflow-x: hidden;
+
+        .testimonials {
+            width: inherit;
+            text-align: center;
+
+            h1 {
+                @include H1-initial-part
+            }
+
+            span {
+                @include P-initial-part
+            }
+
+            .swiper {
+                width: 90%;
+                height: 90%;
+                margin-top: 30px;
+
+                @media (max-width: 760px) {
+                    .swiper-button-next {
+                        right: 20px;
+                        transform: rotate(90deg);
+                    }
+
+                    .swiper-button-prev {
+                        left: 20px;
+                        transform: rotate(90deg);
+                    }
+                }
+
+                .swiper-wrapper {
+                    .swiper-slide {
+                        text-align: center;
+                        font-size: 18px;
+                        background: #fff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .card {
+                            .card-body {
+
+                                .card-title {
+                                    margin: 0;
+                                    text-align: right;
+                                }
+
+                                .card-text {
+                                    font-family: $font-esteadad-light;
+                                    font-size: 15px;
+                                    text-align: right;
+                                }
+                            }
+
+                            .card-footer {
+                                background-color: #F7FCE9;
+                                text-align: right;
+
+                                img {
+                                    text-align: center;
+                                }
+
+                                .img-name {
+                                    display: inline-block;
+                                    font-family: $font-esteadad-bold;
+                                    font-size: 12px;
+                                    text-align: right;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+
 }

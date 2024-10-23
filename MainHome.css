@@ -120,6 +120,143 @@ header > div.NavBar > div.container > nav > ul > li > a.ContactUs {
   top: 57%;
 }
 
+footer {
+  width: 100%;
+  height: 225px;
+  background-color: #1A3129;
+}
+footer .FooterSection {
+  height: 180px;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer .FooterSection .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+footer .FooterSection .footer .footer-logo {
+  display: flex;
+  align-items: center;
+}
+footer .FooterSection .footer .footer-logo img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+footer .FooterSection .footer .footer-logo h1 {
+  font-family: EsteadadBlack;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 800;
+  margin-right: 10px;
+  margin-bottom: 22px;
+}
+footer .FooterSection .footer .footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+footer .FooterSection .footer .footer-menu nav ul {
+  display: flex;
+}
+footer .FooterSection .footer .footer-menu nav ul li a {
+  padding: 8px;
+  text-decoration: none;
+  font-family: EsteadadBold;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+footer .FooterSection .footer .footer-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  direction: ltr;
+}
+footer .FooterSection .footer .footer-top a {
+  margin-right: 20px;
+}
+footer .FooterSection .footer .footer-top a img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 22px;
+}
+footer .FooterSection .footer .footer-top h2 {
+  display: flex;
+  font-family: EsteadadLight;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: revert;
+}
+footer .FooterSection .footer-box {
+  text-align: left;
+  width: 100%;
+  height: 70px;
+  background-color: #2C5446;
+  margin-top: 20px;
+  border-radius: 10px;
+  direction: ltr;
+  display: flex;
+  align-items: center;
+}
+footer .FooterSection .footer-box .row {
+  display: flex;
+}
+footer .FooterSection .footer-box .row .col {
+  padding-left: 16px;
+}
+footer .FooterSection .footer-box .row .col .box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #1b3d31;
+  border-radius: 4px;
+  width: 195px;
+  height: 48px;
+  direction: ltr;
+}
+footer .FooterSection .footer-box .row .col .box .box-body {
+  display: flex;
+  direction: ltr;
+}
+footer .FooterSection .footer-box .row .col .box .box-body img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-top: -3px;
+}
+footer .FooterSection .footer-box .row .col .box .box-body h1 {
+  font-family: EsteadadLight;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+footer .FooterSection .footer-box span {
+  direction: rtl;
+  text-align: right;
+  text-align: justify;
+  font-family: EsteadadBold;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 30%;
+}
+
+header > div.NavBar > div.container > nav > ul > li > a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 65%;
+}
+
 @font-face {
   font-family: "EsteadadBlack";
   src: url("./Assest/Media/Font/Estedad/Black/Estedad-Black.eot");
@@ -140,16 +277,6 @@ header > div.NavBar > div.container > nav > ul > li > a.ContactUs {
   src: url("./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.eot");
   src: url("./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.woff") format("woff"), url("./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.woff2") format("woff2"), url("./Assest/Media/Font/Yekan/YekanBakhFaNum-Bold.ttf") format("truetype");
 }
-header > div.NavBar > div.container > nav > ul > li > a {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  color: #FFFFFF;
-  position: absolute;
-  top: 65%;
-}
-
 main {
   width: 100%;
   position: relative;
@@ -230,4 +357,204 @@ main .HeroSection .Description a {
   font-family: Yekan;
   font-size: 16px;
   margin: 25px;
+}
+main .FeaturesSection {
+  width: 100%;
+  overflow-x: hidden;
+}
+main .FeaturesSection .features {
+  width: inherit;
+}
+main .FeaturesSection .features h1 {
+  font-size: 2em;
+  margin: 20px auto;
+  font-family: EsteadadBold;
+  text-align: center;
+}
+main .FeaturesSection .features p {
+  font-family: EsteadadLight;
+  font-weight: 900;
+  text-align: center;
+}
+main .FeaturesSection .features .row .col-5 {
+  width: 48%;
+}
+main .FeaturesSection .features .row .col-5 .card {
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+main .FeaturesSection .features .row .col-5 .card .card-body {
+  display: ruby;
+}
+main .FeaturesSection .features .row .col-5 .card .card-body img {
+  width: 6%;
+}
+main .FeaturesSection .features .row .col-5 .card .card-body h5 {
+  font-size: 18px;
+  font-family: EsteadadBold;
+}
+main .FeaturesSection .features .row .col-5 .card .card-body p {
+  font-size: 1em;
+  font-family: EsteadadLight;
+  font-weight: 500;
+  text-align: right;
+  margin-top: 5px;
+}
+main .BlogsSection .blog {
+  overflow-x: hidden;
+  text-align: center;
+}
+main .BlogsSection .blog h1 {
+  font-size: 2em;
+  margin: 20px auto;
+  font-family: EsteadadBold;
+  text-align: center;
+}
+main .BlogsSection .blog span {
+  font-family: EsteadadLight;
+  font-weight: 900;
+  text-align: center;
+}
+main .BlogsSection .blog .row {
+  margin-top: 20px;
+}
+main .BlogsSection .blog .row .col a {
+  text-decoration: none;
+}
+main .BlogsSection .blog .row .col a .card {
+  width: 77%;
+  margin-right: 80px;
+  text-align: center;
+}
+main .BlogsSection .blog .row .col a .card img {
+  width: 570px;
+  height: 336px;
+  text-align: center;
+  padding: 20px;
+}
+main .BlogsSection .blog .row .col a .card .card-body .card-plot {
+  font-family: EsteadadLight;
+  font-size: 16px;
+  text-align: right;
+}
+main .BlogsSection .blog .row .col a .card .card-body .card-title {
+  font-family: EsteadadBold;
+  font-size: 16px;
+  text-align: right;
+}
+main .BlogsSection .blog .row .col a .card .card-body .card-text {
+  font-family: EsteadadLight;
+  font-size: 18px;
+  text-align: right;
+}
+main .BlogsSection .blog .row .col a .card .card-body .card-box {
+  width: 530px;
+  height: 83px;
+  text-align: right;
+  border: 1px solid #E9EED9;
+}
+main .BlogsSection .blog .row .col a .card .card-body .card-box .card-box-body {
+  display: flex;
+}
+main .BlogsSection .blog .row .col a .card .card-body .card-box .card-box-body .card-box-img {
+  width: 100px;
+  height: 100px;
+  margin: -9px;
+}
+main .BlogsSection .blog .row .col a .card .card-body .card-box .card-box-body .card-box-name {
+  font-size: 14px;
+  font-family: EsteadadBold;
+  color: black;
+  width: 100px;
+  position: absolute;
+  top: 87%;
+  left: 65%;
+}
+main .BlogsSection .blog .row .col a .card .card-body .card-box .card-box-body .card-box-time {
+  width: 230px;
+  height: 25px;
+  font-size: 12px;
+  font-family: EsteadadLight;
+  color: black;
+  position: absolute;
+  top: 91.5%;
+  left: 42.5%;
+}
+main .BlogsSection .blog .row .col a .card .card-body .card-box .card-box-body .card-icon-heart {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+main .BlogsSection .blog .row .col a .card .card-body .card-box .card-box-body .card-icon-save {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 25px;
+  bottom: 50px;
+}
+main .OurTestimonials {
+  width: 100%;
+  overflow-x: hidden;
+}
+main .OurTestimonials .testimonials {
+  width: inherit;
+  text-align: center;
+}
+main .OurTestimonials .testimonials h1 {
+  font-size: 2em;
+  margin: 20px auto;
+  font-family: EsteadadBold;
+  text-align: center;
+}
+main .OurTestimonials .testimonials span {
+  font-family: EsteadadLight;
+  font-weight: 900;
+  text-align: center;
+}
+main .OurTestimonials .testimonials .swiper {
+  width: 90%;
+  height: 90%;
+  margin-top: 30px;
+}
+@media (max-width: 760px) {
+  main .OurTestimonials .testimonials .swiper .swiper-button-next {
+    right: 20px;
+    transform: rotate(90deg);
+  }
+  main .OurTestimonials .testimonials .swiper .swiper-button-prev {
+    left: 20px;
+    transform: rotate(90deg);
+  }
+}
+main .OurTestimonials .testimonials .swiper .swiper-wrapper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .OurTestimonials .testimonials .swiper .swiper-wrapper .swiper-slide .card .card-body .card-title {
+  margin: 0;
+  text-align: right;
+}
+main .OurTestimonials .testimonials .swiper .swiper-wrapper .swiper-slide .card .card-body .card-text {
+  font-family: EsteadadLight;
+  font-size: 15px;
+  text-align: right;
+}
+main .OurTestimonials .testimonials .swiper .swiper-wrapper .swiper-slide .card .card-footer {
+  background-color: #F7FCE9;
+  text-align: right;
+}
+main .OurTestimonials .testimonials .swiper .swiper-wrapper .swiper-slide .card .card-footer img {
+  text-align: center;
+}
+main .OurTestimonials .testimonials .swiper .swiper-wrapper .swiper-slide .card .card-footer .img-name {
+  display: inline-block;
+  font-family: EsteadadBold;
+  font-size: 12px;
+  text-align: right;
 }/*# sourceMappingURL=MainHome.css.map */

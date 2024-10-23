@@ -1,0 +1,25 @@
+@mixin H1-initial-part {
+    font-size: 2em;
+    margin: 20px auto;
+    font-family: $font-esteadad-bold;
+    text-align: center;
+}
+
+@mixin P-initial-part {
+    font-family: $font-esteadad-light;
+    font-weight: 900;
+    text-align: center;
+}
+
+@mixin blog-card {
+    width: 77%;
+    margin-right: 80px;
+    text-align: center;
+}
+
+@mixin blog-card-img {
+    width: 570px;
+    height: 336px;
+    text-align: center;
+    padding: 20px
+}
