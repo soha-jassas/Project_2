@@ -1,0 +1,237 @@
+@import'./Assest/CSS/Setting';
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    position: absolute;
+    width: 1279px;
+    height: 1295px;
+    left: calc(50% - 1279px/2 + 0.5px);
+    top: 245px;
+
+    .Contact-Heading {
+        .background {
+
+            position: absolute;
+            width: 643px;
+            height: 326px;
+            left: 335px;
+            top: -50px;
+
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 14px;
+            gap: 10px;
+            width: 100px;
+            height: 100px;
+            background-blend-mode: normal, luminosity, normal;
+            border: 4px solid #FFFFFF;
+            border-radius: 10px;
+            position: absolute;
+            left: 610px;
+            top: 20px;
+
+        }
+
+        h1 {
+            width: 1120px;
+            height: 57px;
+            font-family: $font-esteadad-bold;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 600%;
+            text-align: center;
+            color: #262626;
+            margin: 0 auto;
+            position: absolute;
+            top: 150px;
+            right: 5%;
+
+        }
+
+        p {
+            width: 1120px;
+            height: 72px;
+            font-family: $font-esteadad-light;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            text-align: center;
+            color: #333333;
+            position: absolute;
+            top: 335px;
+            left: 65px;
+        }
+    }
+
+    .Contact-Information {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 50px 105px;
+        gap: 30px;
+        width: 1279px;
+        height: 214px;
+        background: #1A3129;
+        border-radius: 12px;
+        position: absolute;
+        top: 490px;
+
+        .email,
+        .phone,
+        .location {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 24px;
+            gap: 16px;
+            width: 336.33px;
+            height: 114px;
+            background: #234338;
+            border: 1px solid #2C5446;
+            border-radius: 6px;
+
+            img {
+                width: 26px;
+                height: 26px;
+            }
+
+            h4 {
+                width: 288.33px;
+                height: 24px;
+                font-family: $font-esteadad-light;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 150%;
+                text-align: center;
+                color: #FFFFFF;
+
+            }
+
+        }
+
+    }
+
+    .Contact-Form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 60px;
+        gap: 40px;
+        width: 1279px;
+        height: 628px;
+        background: #F7FCE9;
+        border: 1px solid #E5F5BD;
+        box-shadow: 10px 10px 50px rgba(0, 98, 255, 0.03);
+        border-radius: 12px;
+        position: absolute;
+        bottom: -80px;
+
+        .Contact-Form-Img {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding: 0px;
+            gap: 20px;
+            width: 559.5px;
+            height: 507px;
+
+            a {
+                display: flex;
+
+                .map {
+                    width: 559.5px;
+                    height: 435px;
+                    border-radius: 8px;
+                }
+
+                .icon {
+                    display: flex;
+                    position: absolute;
+                    top: 500px;
+
+                    img {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        margin: 10px;
+                        width: 52px;
+                        height: 52px;
+                        background: #CBEA7B;
+                        border-radius: 6px;
+
+                    }
+                }
+            }
+
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 15px;
+            width: 559.5px;
+            height: 508px;
+            position: relative;
+
+            .text-name,
+            .text-email,
+            .text-number,
+            .text-massege {
+                width: 269.75px;
+                height: 24px;
+                font-family: $font-esteadad-black;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #4C4C4C;
+            }
+
+            #name,
+            #email,
+            #number,
+            #massege {
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 20px;
+                gap: 77px;
+                width: 269.75px;
+                height: 60px;
+                background: #EEF8D3;
+                border: 1px solid #DCF1A7;
+                border-radius: 6px;
+            }
+
+            .send {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 14px 24px;
+                gap: 8px;
+                width: 559.5px;
+                height: 49px;
+                background: #CBEA7B;
+                border-radius: 6px;
+                border: 0;
+                font-family: $font-esteadad-bold;
+
+            }
+        }
+
+    }
+}
